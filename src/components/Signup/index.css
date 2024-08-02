@@ -1,0 +1,57 @@
+
+.form-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+
+form {
+    background-color: aliceblue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+.username,.password,.role{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+}
+
+.submit-btn-container {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+        border: 1px solid black;
+}
+
+label{
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.submit-btn-container button{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border-width: 0px;
+    
+}
